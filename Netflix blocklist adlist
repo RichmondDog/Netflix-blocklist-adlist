@@ -1,0 +1,50 @@
+# Netflix Blocklist for Pi-hole
+# ============================
+# This list blocks the main domains used by Netflix for streaming, apps, and the website.
+# Add this list to your Pi-hole Adlists section to block Netflix on all devices.
+#
+# Maintained by: [Greg]
+# Last updated: 2025-05-25
+#
+# -- Main Netflix domains --
+netflix.com
+www.netflix.com
+netflix.net
+www.netflix.net
+
+# -- Netflix streaming and API domains --
+nflximg.com
+www.nflximg.com
+nflximg.net
+www.nflximg.net
+nflxso.net
+www.nflxso.net
+nflxvideo.net
+www.nflxvideo.net
+nflxext.com
+www.nflxext.com
+nflxsearch.net
+www.nflxsearch.net
+nflxmulti.net
+www.nflxmulti.net
+nflxpl.com
+www.nflxpl.com
+
+# -- Netflix CDN and service endpoints --
+api-global.netflix.com
+api-www.netflix.com
+ios.prod.ftl.netflix.com
+android.prod.ftl.netflix.com
+help.netflix.com
+movies.netflix.com
+secure.netflix.com
+signup.netflix.com
+assets.nflxext.com
+cds-api.netflix.com
+
+# -- Netflix telemetry and tracking --
+ichnaea.netflix.com
+logging.netflix.com
+metrics.netflix.com
+
+# End of list

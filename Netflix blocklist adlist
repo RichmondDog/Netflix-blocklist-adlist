@@ -4,7 +4,7 @@
 # Add this list to your Pi-hole Adlists section to block Netflix on all devices.
 #
 # Maintained by: [Greg]
-# Last updated: 2025-05-25
+# Last updated: 2025-06-05
 #
 # -- Main Netflix domains --
 netflix.com
@@ -29,6 +29,7 @@ nflxmulti.net
 www.nflxmulti.net
 nflxpl.com
 www.nflxpl.com
+uiboot.netflix.com
 
 # -- Netflix CDN and service endpoints --
 api-global.netflix.com
@@ -41,6 +42,10 @@ secure.netflix.com
 signup.netflix.com
 assets.nflxext.com
 cds-api.netflix.com
+nrdp.prod.cloud.netflix.com
+nrdp-ipv6.prod.ftl.netflix.com
+cdn-0.nflximg.com
+occ-0-3329-299.1.nflxso.net
 
 # -- Netflix telemetry and tracking --
 ichnaea.netflix.com
